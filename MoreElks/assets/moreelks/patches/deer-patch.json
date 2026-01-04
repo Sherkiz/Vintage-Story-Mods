@@ -1,0 +1,39 @@
+[
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/deer-elk-*/climate/maxTemp",
+		"value": 5
+	},
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/deer-elk-*/climate/maxRain",
+		"value": 0.9
+	},
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/deer-elk-*/climate/maxForest",
+		"value": 0.6
+	},
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/deer-elk-*/climate/maxShrubs",
+		"value": 0.8
+	},
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/deer-elk-*/worldgen/triesPerChunk/avg",
+		"value": 0.01
+	},
+	{
+		"file": "game:entities/animal/mammal/hooved/deer-adult.json",
+		"op": "addmerge",
+		"path": "/server/spawnconditionsByType/deer-elk-*/runtime/chance",
+		"value": 0.01
+	}
+
+]

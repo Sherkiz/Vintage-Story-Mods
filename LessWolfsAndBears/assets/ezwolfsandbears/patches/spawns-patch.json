@@ -1,80 +1,111 @@
 [
 	{
-		"op": "replace",
-		"path": "/server/spawnconditionsByType/bear-male-*/runtime/chance",
-		"value": 0.00001,
-		"file": "game:entities/land/bear.json"
-	},
-	{
-		"op": "replace",
-		"path": "/server/spawnconditionsByType/bear-male-*/worldgen/TriesPerChunk/avg",
-		"value": 0.005,
-		"file": "game:entities/land/bear.json"
-	},
-	{
+		"file": "game:entities/animal/mammal/bear-adult.json",
 		"op": "replace",
 		"path": "/server/spawnconditions/runtime/chance",
-		"value": 0.00005,
-		"file": "game:entities/land/wolf-male.json"
+		"value": 0.00001
 	},
 	{
+		"file": "game:entities/animal/mammal/bear-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/maxQuantity",
-		"value": 4,
-		"file": "game:entities/land/wolf-male.json"
+		"path": "/server/spawnconditions/runtime/MinDistanceToPlayer",
+		"value": 50
 	},
 	{
+		"file": "game:entities/animal/mammal/bear-adult.json",
 		"op": "replace",
 		"path": "/server/spawnconditions/worldgen/TriesPerChunk/avg",
-		"value": 0.02,
-		"file": "game:entities/land/wolf-male.json"
+		"value": 0.005
 	},
 	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/worldgen/groupSize/var",
-		"value": 1,
-		"file": "game:entities/land/wolf-male.json"
+		"path": "/server/spawnconditionsByType/*-male/runtime/chance",
+		"value": 0.00005
 	},
 	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/groupSize/avg",
-		"value": 2,
-		"file": "game:entities/land/wolf-male.json"
+		"path": "/server/spawnconditionsByType/*-male/runtime/maxQuantity",
+		"value": 4
 	},
 	{
-		"file": "game:entities/land/wolf-male.json",
+		"file": "game:entities/animal/mammal/wolf-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/minForest",
+		"path": "/server/spawnconditionsByType/*-male/runtime/MinDistanceToPlayer",
+		"value": 50
+	},
+	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/runtime/groupSize/avg",
+		"value": 2
+	},
+	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/worldgen/TriesPerChunk/avg",
+		"value": 0.02
+	},
+	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/worldgen/groupSize/var",
+		"value": 1
+	},
+	{
+		"file": "game:entities/animal/mammal/wolf-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/runtime/minForest",
 		"value": 0.6
 	},
 	{
-		"file": "game:entities/land/wolf-male.json",
+		"file": "game:entities/animal/mammal/wolf-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/maxTemp",
+		"path": "/server/spawnconditionsByType/*-male/runtime/maxTemp",
 		"value": 12
 	},
+
 	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/chance",
-		"value": 0.0002,
-		"file": "game:entities/land/hyena-male.json"
+		"path": "/server/spawnconditionsByType/*-male/runtime/chance",
+		"value": 0.0002
 	},
 	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/worldgen/TriesPerChunk/avg",
-		"value": 0.05,
-		"file": "game:entities/land/hyena-male.json"
+		"path": "/server/spawnconditionsByType/*-male/runtime/MinDistanceToPlayer",
+		"value": 50
 	},
 	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/worldgen/groupSize/var",
-		"value": 2,
-		"file": "game:entities/land/hyena-male.json"
+		"path": "/server/spawnconditionsByType/*-male/runtime/groupSize/var",
+		"value": 2
 	},
 	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
 		"op": "replace",
-		"path": "/server/spawnconditions/runtime/groupSize/var",
-		"value": 2,
-		"file": "game:entities/land/hyena-male.json"
+		"path": "/server/spawnconditionsByType/*-male/worldgen/TriesPerChunk/avg",
+		"value": 0.05
+	},
+	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/worldgen/groupSize/var",
+		"value": 2
+	},
+	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/runtime/minTemp",
+		"value": 30
+	},
+	{
+		"file": "game:entities/animal/mammal/hyena-adult.json",
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/*-male/runtime/maxRain",
+		"value": 0.32
 	}
 ]

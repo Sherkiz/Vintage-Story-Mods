@@ -1,0 +1,45 @@
+{
+	code: "puree",
+	perishableProps: {
+		freshHours: { avg: 384 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "meal/puree" },
+	ingredients: [
+	
+		{
+			code: "fruit-base", 
+			validStacks: [ 
+    			{ type: "item", code: "game:fruit-redapple", shapeElement: "bowl/fruit" },
+    			{ type: "item", code: "game:fruit-pinkapple", shapeElement: "bowl/fruit" },
+    			{ type: "item", code: "game:fruit-yellowapple", shapeElement: "bowl/fruit" },
+    			{ type: "item", code: "game:fruit-pear", shapeElement: "bowl/fruit" },
+    			{ type: "item", code: "game:fruit-peach", shapeElement: "bowl/fruit" },
+    			{ type: "item", code: "game:fruit-mango", shapeElement: "bowl/fruit" }  
+    		],
+			minQuantity: 2,
+			maxQuantity: 4,
+			typeName: "fruit"
+		},
+		{
+			code: "fruit-extra", 
+			validStacks: [ 
+    			{ type: "item", code: "game:fruit-*", shapeElement: "bowl/fruit 1/*" }
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "fruit"
+		},
+		{
+			code: "fruit-extra2", 
+			validStacks: [ 
+    			{ type: "item", code: "game:fruit-*", shapeElement: "bowl/fruit 2/*" }
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+			typeName: "fruit"
+		}
+	]
+}

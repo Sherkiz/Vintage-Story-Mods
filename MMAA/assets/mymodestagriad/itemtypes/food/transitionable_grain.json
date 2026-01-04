@@ -20,28 +20,30 @@
 		groundStorageTransform: {
 			translation: { x: 0.025, y: -0.075, z: 0.025 },
 			scale: 0.86
-		}
+		},
+		inTrapTransform: { translation: { x: 0, y: 0.058, z: 0 }},
+		foodTags: ["grain"]
 	},
 	attributesByType: {
-		"*-sunflower-dried": { "foodTags": ["sunflower-dried"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" } },
-		"*-flax-dried": { "foodTags": ["sunflower-dried"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" }, handbook:{
+		"*-sunflower-dried": { "foodTags": ["{type}-dried"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" } },
+		"*-flax-dried": { "foodTags": ["{type}-dried"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" }, handbook:{
 			extraSections: [
 				{ title: "mymodestagriad:item-handbooktitle-grain-dried", text: "mymodestagriad:item-handbooktext-grain-dried" }
 			]
 		}},
-		"*-rice-dried": { "foodTags": ["grain-soaked"],"nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" }, handbook:{
+		"*-rice-dried": { "foodTags": ["{type}-dried"],"nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" }, handbook:{
 			extraSections: [
 				{ title: "mymodestagriad:item-handbooktitle-grain-dried", text: "mymodestagriad:item-handbooktext-grain-dried" }
 			]
 		}}, 		 
-		"*-dried": { "foodTags": ["grain-dried"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }, handbook:{
+		"*-dried": { "foodTags": ["{type}-dried"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }, handbook:{
 			extraSections: [
 				{ title: "mymodestagriad:item-handbooktitle-grain-dried", text: "mymodestagriad:item-handbooktext-grain-dried" }
 			]
 		}},
-		"*-flax-soaked": { "foodTags": ["grain-soaked"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" } }, 
-		"*-rice-soaked": { "foodTags": ["grain-soaked"],"nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" } }, 
-		"*-soaked": { "foodTags": ["grain-{state}"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }}
+		"*-flax-soaked": { "foodTags": ["{type}-soaked"],"nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" } }, 
+		"*-rice-soaked": { "foodTags": ["{type}-soaked"],"nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" } }, 
+		"*-soaked": { "foodTags": ["{type}-soaked"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }}
 	},
 	textureByType: { 
         "*-dried":  { base: "game:block/food/grain/{type}-pile"},

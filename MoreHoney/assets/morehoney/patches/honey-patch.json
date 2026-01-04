@@ -1,0 +1,26 @@
+[
+	{
+		"file": "game:itemtypes/resource/honeycomb.json",
+		"op": "replace",
+		"path": "/behaviors/0/properties/squeezedLitres",
+		"value": 0.5
+	},
+	{
+		"file": "game:itemtypes/resource/honeycomb.json",
+		"op": "replace",
+		"path": "/attributes/juiceableProperties/litresPerItem",
+		"value": 0.5
+	},
+	{
+		"file": "game:itemtypes/resource/honeycomb.json",
+		"op": "replace",
+		"path": "/attributes/juiceableProperties/returnStack/stacksize",
+		"value": 2
+	},
+	{
+		"file": "game:itemtypes/resource/honeycomb.json",
+		"op": "replace",
+		"path": "/maxstacksize",
+		"value": 12
+	}
+]

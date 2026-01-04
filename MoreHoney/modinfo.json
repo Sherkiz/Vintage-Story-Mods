@@ -1,0 +1,8 @@
+{
+  "type": "content",
+  "modid": "morehoney",
+  "name": "More Honey",
+  "authors": ["Warang"],
+  "description": "Skeps drop more honeycombs, and more honey is obtained when squeezing honeycomb.",
+  "version": "0.1.0"
+}

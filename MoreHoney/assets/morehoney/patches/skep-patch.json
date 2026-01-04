@@ -1,0 +1,44 @@
+[
+	{
+		"file": "game:blocktypes/wax/wildbeehive.json",
+		"op": "replace",
+		"path": "/drops/0/quantityByType/*-large/avg",
+		"value": 3
+	},
+	{
+		"file": "game:blocktypes/wax/wildbeehive.json",
+		"op": "replace",
+		"path": "/drops/0/quantityByType/*/avg",
+		"value": 2
+	},
+	{
+		"file": "game:blocktypes/wax/wildbeehive-inlog.json",
+		"op": "replace",
+		"path": "/drops/0/quantity/avg",
+		"value": 2
+	},
+	{
+		"file": "game:blocktypes/reed/skep.json",
+		"op": "replace",
+		"path": "/dropsByType/skep-reed-*/1/quantity/avg",
+		"value": 4
+	},
+	{
+		"file": "game:blocktypes/reed/skep.json",
+		"op": "replace",
+		"path": "/dropsByType/*/1/quantity/avg",
+		"value": 4
+	},
+	{
+		"file": "game:blocktypes/reed/skep.json",
+		"op": "addmerge",
+		"path": "/dropsByType/skep-reed-*/1/quantity/var",
+		"value": 2
+	},
+	{
+		"file": "game:blocktypes/reed/skep.json",
+		"op": "addmerge",
+		"path": "/dropsByType/*/1/quantity/var",
+		"value": 2
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "type": "content",
+  "modid": "moreelks",
+  "name": "More Elks",
+  "authors": ["Warang"],
+  "description": "Make elks more likely to spawn.",
+  "version": "0.1.0"
+}
